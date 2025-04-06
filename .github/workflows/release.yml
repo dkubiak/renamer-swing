@@ -10,8 +10,7 @@ jobs:
     steps:
       - name: Checkout project
         uses: actions/checkout@v2
-      - name: Cache local Maven repository
-        
+      
       - name: Setup Java JDK
         uses: actions/setup-java@v1.4.2
         with:
